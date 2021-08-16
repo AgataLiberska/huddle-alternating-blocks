@@ -1,18 +1,24 @@
-button, a {
-    font-size: 0.75rem;
-
-    @media (min-width: var(--breakpoint-md)) {
-        font-size: 1rem;
-    }
-}
-
-
 .hero {
     background-image: url('/images/bg-hero-mobile.svg');
     background-size: cover;
     background-repeat: no-repeat;
 
-    @media (min-width: var(--breakpoint-md)) {
+    @media (min-width: 768px) {
         background-image: url('/images/bg-hero-desktop.svg');
+    }
+}
+
+.feature {
+    height: 30.5rem;
+
+    @media (min-width: 768px) {
+        height: 20rem;
+        justify-content: space-between;
+
+    }
+
+    @media (min-width: 992px) {
+        height: 28rem;
+        padding: 3.375rem 2rem 3.375rem 7.5rem;
     }
 }
