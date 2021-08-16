@@ -1,0 +1,22 @@
+button, a {
+  font-size: 0.75rem;
+}
+
+@media (min-width: var(--breakpoint-md)) {
+  button, a {
+    font-size: 1rem;
+  }
+}
+
+.hero {
+  background-image: url("/images/bg-hero-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: var(--breakpoint-md)) {
+  .hero {
+    background-image: url("/images/bg-hero-desktop.svg");
+  }
+}
+/*# sourceMappingURL=custom.css.map */

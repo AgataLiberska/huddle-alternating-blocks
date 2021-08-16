@@ -5,27 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/css/styles.css">
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
 </head>
-<body class="container-fluid">
-  <div>
-    <header class="row">
-      <img src="images/logo.svg" alt="Huddle logo" >
-      <a href="/" class="btn btn-info">Try It Free</a>
-    </header>
-    <section class="row">
-      <div class="col-12 col-lg-5">
-        <h1>Build The Community Your Fans Will Love</h1>
-        <p class="lead">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-          Create connections with your users as you engage in genuine discussion.</p>
-          <button class="btn btn-primary">Get Started For Free</button>
-      </div>
-      <div class="col-12 col-lg-7">
-        <img src="images/illustration-mockups.svg" alt="" class="img-fluid">
-      </div>
-    </section>
+<body>
+  <div class="hero bg-secondary">
+    <div class="container">
+      <header class="align-items-center justify-content-between row pt-4 mb-5">
+        <div class="col-5 col-md-4 col-lg-2">
+          <img src="images/logo.svg" alt="Huddle logo" class="img-fluid">
+        </div>
+        <div class="col-5 col-md-4 col-lg-2">
+          <a href="/" class="btn btn-light rounded-pill shadow-sm fs-5 fw-bold d-block"> Try It Free</a>
+        </div>
+
+      </header>
+      <section class="row align-items-center justify-content-center py-4 text-center text-lg-start">
+        <div class="col-10 col-md-8 col-lg-5 mb-5">
+          <h1 class="mb-4 text-dark">Build The Community Your Fans Will Love</h1>
+          <p class="fs-4 mb-4 text-dark">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+          <button class="btn btn-primary rounded-pill shadow-sm text-light fs-5 fw-bold px-4 py-2">Get Started For Free</button>
+        </div>
+        <div class="col-11 col-md-10 col-lg-7">
+          <img src="images/illustration-mockups.svg" alt="" class="img-fluid">
+        </div>
+      </section>
+    </div>
   </div>
   <section>
     <article class="card">
