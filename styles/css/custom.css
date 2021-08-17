@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .hero {
   background-image: url("/images/bg-hero-mobile.svg");
   background-size: cover;
@@ -28,5 +32,67 @@
     height: 28rem;
     padding: 3.375rem 2rem 3.375rem 7.5rem;
   }
+}
+
+.footer-logo path {
+  fill: #FFFFFF;
+}
+
+.footer-link {
+  color: #FFFFFF;
+  text-decoration: none;
+  -webkit-transition: color 0.2s ease-in, fill 0.2s ease-in;
+  transition: color 0.2s ease-in, fill 0.2s ease-in;
+}
+
+.footer-link:hover {
+  color: #FF52C1;
+}
+
+.footer-link:focus {
+  text-decoration: underline;
+  color: #FF52C1;
+}
+
+.footer-social {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 2rem;
+  width: 2rem;
+  margin: 0 0.25rem;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  -webkit-transition: border-color 0.2s ease-in;
+  transition: border-color 0.2s ease-in;
+}
+
+.footer-social svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.footer-social svg path {
+  fill: #FFFFFF;
+  -webkit-transition: fill 0.2s ease-in;
+  transition: fill 0.2s ease-in;
+}
+
+.footer-social:hover, .footer-social:focus {
+  border: 1px solid #FF52C1;
+}
+
+.footer-social:hover svg path, .footer-social:focus svg path {
+  fill: #FF52C1;
 }
 /*# sourceMappingURL=custom.css.map */

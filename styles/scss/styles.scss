@@ -23,7 +23,19 @@ $font-sizes: (
 );
 
 
+$spacers: (
+  0: 0,
+  1: 1rem,
+  2: 1.5rem,
+  3: 2rem,
+  4: 2.5rem,
+  5: 3rem,
+  6: 5rem,
+  7: 7.5rem
+);
+
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
-@import "custom";
+@import "custom"
+
 
